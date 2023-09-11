@@ -6,7 +6,7 @@ function addTask(){
     let taskTitle=document.getElementById("title").value;
     let taskDescription=document.getElementById("description").value;
     let taskStatus=document.getElementById("status").value;
-
+//create a task object and push tasks into the array
 var task = {
         title: taskTitle,
         description: taskDescription,
@@ -64,4 +64,4 @@ document.getElementById("myform").addEventListener("submit", function(event) {
 });
 
 displayTasks();
-console.log(tasks);
+
