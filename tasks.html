@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <h1>Task Manager Application</h1>
+    <form id="myform">
+        <label for="title">Task Title:</label>
+        <input type="text" name="title" id="title" required><br><br>
+        <label for="description">Task description:</label>
+        <textarea name="description" id="description" required></textarea><br><br>
+        <label for="status">Task Status:</label>
+        <select name="status" id="status" required>
+            <option>To Do</option>
+            <option>In Progress</option>
+            <option>Completed</option>
+        </select><br><br>
+        <button type="submit" id="add">Add Task</button>
+        <br><br>
+        <h2>List of Tasks</h2>
+        <ul id="list"></ul>
+    </form>
+    <!--Js Script to manipulate the DOM-->
+    <script src="myScript.js"></script>
+</body>
+</html>

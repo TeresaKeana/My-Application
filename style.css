@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    border: 4px ridge grey;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+#myform{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+#title{
+    margin-left: 40px;
+}
+#status{
+    margin-left: 40px;
+}
+#add,#delete,#edit{
+    background-color:green;
+    color: aliceblue;
+}
+#add:hover{
+    color: white;
+    background-color: red;
+}
+#delete:hover{
+    color: white;
+    background-color: red;
+}
+#edit:hover{
+    color: white;
+    background-color: red;
+}
+label{
+    font-size: larger;
+}
