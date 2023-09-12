@@ -65,3 +65,5 @@ document.getElementById("myform").addEventListener("submit", function(event) {
 
 displayTasks();
 
+document.getElementById("date").innerHTML=new Date();
+
