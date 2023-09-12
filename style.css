@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+div{
     background-color: antiquewhite;
     border: 4px ridge grey;
 }

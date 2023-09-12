@@ -16,7 +16,7 @@ var task = {
 
     let taskList = document.getElementById("list");
     let listItem = document.createElement("li");
-    listItem.innerHTML = `Title: ${task.title}<br>Description: ${task.description}<br>Status: ${task.status}
+    listItem.innerHTML = `<b>Title:</b> ${task.title}<br><b>Description:</b> ${task.description}<br><b>Status:</b> ${task.status}
     <button id="edit" onclick="editTask(${tasks.length -1})">Edit Task</button>
     <button id="delete" onclick="deleteTask(${tasks.length -1})">Delete Task</button>`;
     taskList.appendChild(listItem);
